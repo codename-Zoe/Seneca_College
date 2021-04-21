@@ -1,0 +1,123 @@
+#include <stdio.h>
+int main() {
+    int x=65;  //declaring variable x as integer type and initializing to 65
+    printf("The value of x is %d\n",x); // %d is a format specififier
+    // 65 in binary(2進数) is 01000001
+    return 0;
+}
+
+compile
+"The value of x is 65"
+
+
+#include <stdio.h>
+int main() {
+    int x=65;  //declaring variable x as integer type and initializing to 65
+    printf("The value of x is %c\n",x); // %c is a character number?
+    // 65 in binary is 01000001
+    return 0;
+}
+
+compile
+"The value of x is A" A→from Ascii table
+
+
+#include <stdio.h>
+int main() {
+    int x=65;  //declaring variable x as integer type and initializing to 65
+    printf("The value of x is %o\n",x); // %o is a octonumber 8進数
+    // 65 in binary is 01000001
+    return 0;
+}
+
+compile
+"The value of x is 101" A→from Ascii table
+
+
+#include <stdio.h>
+int main() {
+    char x='A';  //declaring variable x as character type and initializing to A
+    printf("The value of x is %c\n",x); // %c is a format specififier
+    // 65 in binary(2進数) is 01000001
+    return 0;
+}
+
+compile
+"The value of x is A" 
+
+
+#include <stdio.h>
+int main() {
+    int x=65;
+    printf("\t%c\t%d\t%0\t%x\n",x,x,x,x);
+    printf("\t%c\t%d\t%0\t%x\n",x+1,x+1,x+1,x+1);
+    return0;
+}
+
+compile 
+A  65  101  41
+B  66  102  42
+
+
+
+
+#include <stdio.h>
+int main() {
+    float x=3.14159265; // this is PI
+    printf("\tPI is %g\n",x) //%g is the format specifier (general)
+    return 0;
+}
+
+
+compile
+PI is 3.14159
+
+
+
+
+#include <stdio.h>
+int main() {
+    float x=3.14159265; // this is PI
+    printf("\tPI is %f\n",x) //%f is the format specifier (general)
+    return 0;
+}
+
+
+compile
+PI is 3.141593
+
+
+
+#include <stdio.h>
+int main() {
+    float x=3.14159265; // this is PI
+    printf("\tPI is %.2\n",x) //%.2 is the format specifier (general)
+    return 0;
+}
+
+
+compile
+PI is 3.14(以下rounded up)
+
+
+
+#include <stdio.h>
+int main() {
+    float x=3.14159265; // this is PI
+    printf("\tPI is %10.4\n",x) //%10.4 is the format specifier (general)
+    return 0;
+}
+
+
+compile
+PI is         3.1415
+
+
+
+
+binary number→二進数？
+デスモール(Dec)ナンバー？
+int, float, printf 違い？
+
+larget int in 4 bytes 
+when we are dealing with numbers, there is a limit
