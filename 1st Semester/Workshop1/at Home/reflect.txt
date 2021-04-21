@@ -1,1 +1,0 @@
-I learned how to display some words by using C program.I thought there is only one method to display "Welcome to C Programming" surrounded by stars.However, there are many ways to display it by using different functions.
