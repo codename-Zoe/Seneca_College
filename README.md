@@ -1,22 +1,13 @@
-Seneca-College
-September, 2020 - Present:mortar_board:
-
-1st Semester:white_check_mark:
-IPC144 - C language
-
-2nd Semester:white_check_mark:
-OOP224 - C++ language
-WEB222 - JavaScript, HTML, CSS
-DBS211 - Oracle DBMS
-
-3rd Semester
-Coming soon...
-
-4th Semester
-Coming soon...
-
-5th Semester
-Coming soon...
-
-6th Semester
+Seneca College<br />
+September, 2020 - Present:mortar_board:<br />
+<br />
+1st Semester:white_check_mark:<br />
+IPC144 - C language<br />
+<br />
+2nd Semester:white_check_mark:<br />
+OOP224 - C++ language<br />
+WEB222 - JavaScript, HTML, CSS<br />
+DBS211 - Oracle DBMS<br />
+<br />
+3rd Semester<br />
 Coming soon...
