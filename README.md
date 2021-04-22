@@ -1,4 +1,4 @@
-Seneca College<br />
+<h3>Seneca College</h3><br />
 September, 2020 - Present:mortar_board:<br />
 <br />
 1st Semester:white_check_mark:<br />
