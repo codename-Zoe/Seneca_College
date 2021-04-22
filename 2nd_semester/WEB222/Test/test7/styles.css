@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300&family=Cutive+Mono&family=Lora&display=swap'); /*Import Google Fonts*/
+
+html{
+    background-color: rgb(255, 223, 253);
+    width: 1500px;
+    margin: auto;
+}
+
+header h1{
+    font-family: 'Cormorant Unicase', sans-serif;
+    font-size: 40px;
+}
+
+main p{
+    font-family: 'Lora', sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+    text-indent: 2em;
+}
+
+main pre{
+    font-family: 'Cutive Mono', 'Courier New', Courier, monospace;
+    background-color: rgb(255, 195, 205);
+}

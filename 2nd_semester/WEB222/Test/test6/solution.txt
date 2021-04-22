@@ -1,0 +1,38 @@
+// Name:         Nozomi Tsuchiya
+// Email:        ntsuchiya1@myseneca.ca
+// Student ID:   154666192
+
+//Question 2
+window.onload = function(){
+    
+    //Question 3
+    document.title = "Test 6";   // set title to 'Test 6'
+
+    //Question 4
+    let tmp = document.querySelector('.intro');  // obtain the query and set it to tmp
+    let studentId = '154666192';                 // set my student ID to studentId
+    tmp.innerText = "Nozomi Tsuchiya";           // set my name into class="intro"
+    tmp.setAttribute('id',studentId);            // add id attribute
+
+    //Question 5
+    addEventListener('click', function(){
+        let start = document.querySelector('button#start');  // obtain the query and set it to start
+        start.onclick = function(){                          // creating a function which operates by clicking
+            let elm = document.createElement('div');         // create div element and set it to elm
+            let main = document.querySelector('main');       // obtain the query (main) and set it to main
+            elm.innerText = "Start was clicked!";            // add the text into elm
+            main.appendChild(elm);                           // add elm into main 
+        }    
+    });
+
+    //Question 6
+    let num = 1;
+    let change = function(){
+        let elm = document.querySelector('h1');                   // obtain the query (h1) and set it to elm
+        elm.innerText = `There are ${num} div elements in main`;  // add the text into elm
+        num++;                                                    // num is incremented by 1
+    }
+    setInterval(change, 8*1000);                                  // call setInterval() and operates it every 8 seconds
+}
+
+

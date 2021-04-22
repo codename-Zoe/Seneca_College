@@ -1,0 +1,40 @@
+main {
+  margin: 20px;                 
+  border: 7px solid #40798c; 
+  display: flex;
+  justify-content:space-evenly;
+}
+
+#image {
+  background-image: url("ilya-pavlov-OqtafYT5kTw-unsplash.jpg");
+  background-size: cover;
+  width: 1100px;
+  height: 950px;
+}
+
+#text {
+  font-family: "Segoe UI", sans-serif;                 
+  color:#e6d0a1;
+  background-color:#1f2327; 
+  padding: 250px 20px;
+  width: 1100px;
+  height: 450px;
+} 
+
+#text-wrapper h1 {
+  font-size: 35px;
+  border-bottom: 2px solid #e6d0a1;
+  padding-bottom: 60px;
+}
+
+#text-wrapper p {
+  font-size: 25px;
+  padding-top: 50px /*put space above text*/
+}
+
+#text-wrapper h2 {
+  font-size: 30px;
+  padding-top: 30px;
+  padding-left: 10px;
+  font-style: italic;
+}

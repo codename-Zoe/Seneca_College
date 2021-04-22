@@ -1,0 +1,47 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+ * {
+    box-sizing: border-box;
+}
+
+form {
+    margin: 3em;
+    padding: 2em;
+    border: 1px solid black;
+    max-width: 800px;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 30px;
+}
+
+form label {
+    font-family: 'Lora', serif;
+    font-size: 1.2em;
+}
+
+input {
+    font-family: 'Lora', serif;
+    width: 100%;
+    padding: 0.5em;
+    font-size: 1em;
+    border: 1px solid grey;
+}
+
+input:focus {
+    outline: 2px solid lightskyblue;
+    background-color: lightyellow;
+}
+
+input[type="submit"] {
+    width: 120px;
+    padding: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background-color:cornflowerblue;
+    color: white;
+}

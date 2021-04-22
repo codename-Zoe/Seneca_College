@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>WEB222 - Password Reset</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+  </head>
+  <body>
+
+    <main>
+      <form action="/password-reset" method="POST">
+        <label for="email-address">Email</label>
+        <input id="emai-address" name="email" type="email" autocomplete="email" 
+        placeholder="sample@sample.com" autofocus tabindex="1" required>
+
+        <label for="current-password">Current Password</label>
+        <input id="current-password" name="current-password" type="password" 
+        tabindex="2" placeholder="Enter current password" required>
+
+        <label for="new-password">New Password</label>
+        <input id="new-password" name="new-password" type="password" 
+        tabindex="3" placeholder="8-64 characters, contain letters, numbers and symbols" 
+        pattern="(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,64}" required>
+
+        <label for="confirm-password">Confirm New Password</label>
+        <input id="confirm-password" name="confirm-password" type="password" 
+        tabindex="4" placeholder="Confirm password"
+        pattern="(?=.*[a-zA-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,64}" required>
+
+        <div class="button">
+          <input type="submit" name="submit" value="Submit" tabindex="5">
+        </div>
+    </main>
+  </body>
+</html>
