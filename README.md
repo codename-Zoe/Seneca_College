@@ -9,5 +9,11 @@ OOP224 - C++ language<br />
 WEB222 - JavaScript, HTML, CSS<br />
 DBS211 - Oracle DBMS<br />
 <br />
-3rd Semester<br />
+3rd Semester:pencil2:in progress<br />
+OOP344 - C++ language<br />
+WEB322 - JavaScript, HTML, CSS<br />
+DBS311 - Oracle DBMS<br />
+SYD366 - Software analysis and design using Visual Paradigm<br />
+<br />
+4th Semester
 Coming soon...
