@@ -1,11 +1,3 @@
-//==============================================
-// Name:           Nozomi Tsuchiya
-// Student Number: 154666192
-// Email:          ntsuchiya1@myseneca.ca
-// Section:        NUU
-// Workshop:       2 (in-lab)
-//==============================================
-
 #define _CRT_SECURE_NO_WARNINGS
 
 // Start your code below:
