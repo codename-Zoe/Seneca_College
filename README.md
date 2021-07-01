@@ -15,5 +15,5 @@ WEB322 - JavaScript, HTML, CSS<br />
 DBS311 - Oracle DBMS<br />
 SYD366 - Software analysis and design using Visual Paradigm<br />
 <br />
-4th Semester
+4th Semester<br />
 Coming soon...
