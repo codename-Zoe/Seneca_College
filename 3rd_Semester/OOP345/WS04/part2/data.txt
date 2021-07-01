@@ -1,0 +1,22 @@
+# ID    : Name    ,             email, # of people, Day, Time
+#------------------------------------------------------------
+1234: John    ,  john@email.com  ,           2,   3,    5
+ab defghij: David   , david@email.com  ,          1 ,   4,    6
+ RES-003 : Sara    , sara@email.com   ,         2  ,   5,    7
+ RES-004: Ana     ,   ana@email.com  ,        1   ,   5 ,    8
+ RES-005: John    , john@email.com   ,       1    ,   4  ,    9
+ RES-006: Vanessa , vanessa@email.com,      2     ,   3,   10
+ RES 007: Mike    , mike@email.com   ,     4      ,4,   11
+ RES-008: Mike    , mike@email.com   ,    8       ,   5,   12
+ RES-009: Dan     , dan@email.com    ,   2        ,   3,   13
+ RES-010:     Donna   , donna@email.com  ,  5         ,   5,14
+ RES-011: Ana     , ana@email.com    , 4          ,   4,   15
+ RES-012: Jon Snow    , john@email.com   ,2           ,   5,   16
+   RES-013: Sara      ,   sara@email.com      ,               6,      3,     17
+RES-014: Jennifer,jenn@email.com,6,5,18
+RES-015      :Stan    , stan@email.com   ,           5,   4,   19
+RES-016: Chris   , chris@email.com,3  ,   4,   20
+ RES-017: Vanessa , vanessa@email.com,           4,   4,   21
+ RES-018: David   , david@email.com  ,           4,   5,   22
+ RES-019: Chris   , chris@email.com  ,           1,   3,   23
+ RES-020: Donna   , donna@email.com  ,           3,   4,   24

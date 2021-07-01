@@ -1,0 +1,36 @@
+Command Line:
+1: ws
+2: monday.txt
+3: tuesday.txt
+
+--------------------
+    Day 1
+--------------------
+ 1. 00:02:55 => Computer Starting
+ 2. 00:02:55 => Computer Starting
+ 3. | No Event |
+ 4. 01:15:34 => User logging in
+ 5. 01:20:09 => User logging in
+ 6. 09:01:04 => Browser closed
+ 7. 17:33:33 => User checks email
+--------------------
+    Day 2
+--------------------
+ 8. 01:02:23 => User starts working on homework
+ 9. | No Event |
+10. 01:20:34 => User takes a break
+11. 01:22:30 => User plays Sudoku
+12. 01:26:40 => User resumes homework
+--------------------
+    Archive
+--------------------
+13. | No Event |
+14. 01:20:00 => Authentication failed
+15. 01:23:20 => Browser starts
+16. 09:01:04 => Browser closed
+17. 17:33:33 => User checks email
+18. 01:02:23 => User starts working on homework
+19. 01:22:30 => User plays Sudoku
+20. | No Event |
+21. 01:26:40 => User resumes homework
+--------------------

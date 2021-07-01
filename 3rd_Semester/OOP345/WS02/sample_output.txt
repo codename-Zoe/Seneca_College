@@ -1,0 +1,39 @@
+Command Line:
+--------------------------
+  1: ws
+  2: gutenberg_shakespeare
+--------------------------
+
+  0-arg Constructor - a.size =       0 strings ->  (a) String     1: []
+                                                   (a) String   100: []
+                                                   (a) String  1000: []
+                                                   (a) String  last: []
+                                                   (a) String last+: []
+
+  1-arg Constructor - b.size = 1293934 strings ->  (b) String     1: [This]
+                                                   (b) String   100: [OR]
+                                                   (b) String  1000: [provide]
+                                                   (b) String  last: [Shakespeare]
+                                                   (b) String last+: []
+
+  Copy Constructor  - c.size = 1293934 strings ->  (c) String     1: [This]
+                                                   (c) String   100: [OR]
+                                                   (c) String  1000: [provide]
+                                                   (c) String  last: [Shakespeare]
+                                                   (c) String last+: []
+
+  Copy Assignment   - a.size = 1293934 strings ->  (a) String     1: [This]
+                                                   (a) String   100: [OR]
+                                                   (a) String  1000: [provide]
+                                                   (a) String  last: [Shakespeare]
+                                                   (a) String last+: []
+
+--------------------------
+Execution Times:
+--------------------------
+  0-arg Constructor          507203 nanoseconds
+  1-arg Constructor      3707237779 nanoseconds
+  Copy Constructor        723791042 nanoseconds
+  Copy Assignment         733217691 nanoseconds
+  Destructor              226742173 nanoseconds
+--------------------------

@@ -1,0 +1,9 @@
+Groceries tomatoes
+Electronics computer
+Tools hammer
+Groceries lettuce
+Groceries potatoes
+Electronics Multimedia_Player
+Electronics HDD
+Groceries meat
+Tools jigsaw

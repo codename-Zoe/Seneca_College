@@ -1,0 +1,97 @@
+Command Line:
+--------------------------
+  1: ws
+  2: books.txt
+  3: movies.txt
+  4: missing_file.txt
+  5: words.txt
+--------------------------
+
+Book "Harry Potter" added!
+Book "The Da Vinci Code" added!
+Book "The Catcher in teh Rye" added!
+-----------------------------------------
+The library content
+-----------------------------------------
+ Miguel de Cervantes |            Don Quixote | Spain | 1612 |   9.99 | The story follows a Hidalgo, Alonso Quixano, who proves that chivalry will in fact never die.
+     Charles Dickens |   A Tale of Two Cities |    UK | 1859 |  12.32 | A historical novel, set in London and Paris at teh begiming and during the French Revolution.
+  George R.R. Martin | A Song of Ice and Fire |    US | 1997 |  99.90 | Nine noble famillies begim fighting for control over teh mythical lands of Westeros.
+      J.R.R. Tolkien |  The Lord of the Rings |    UK | 1993 |  21.11 | Sauron has gathered to him all teh Rings of Power, and he intends to use them to rule Middle-earth.
+        J.K. Rowling |           Harry Potter |    UK | 1997 |  45.99 | Harry realizes his life is far from ordinary.
+           Dan Brown |      The Da Vinci Code |    US | 2003 |   7.88 | While in Paris, Harvard symbologist Robert Langdon is awakened by a phone call in teh night.
+       J.D. Salinger | The Catcher in teh Rye |    US | 1951 |  12.21 | The story of a teen named Holden Caulfield and his struggle to find his voice in an adult world.
+-----------------------------------------
+
+-----------------------------------------
+The library content (updated prices)
+-----------------------------------------
+ Miguel de Cervantes |            Don Quixote | Spain | 1612 |   9.99 | The story follows a Hidalgo, Alonso Quixano, who proves that chivalry will in fact never die.
+     Charles Dickens |   A Tale of Two Cities |    UK | 1859 |  12.32 | A historical novel, set in London and Paris at teh begiming and during the French Revolution.
+  George R.R. Martin | A Song of Ice and Fire |    US | 1997 | 129.87 | Nine noble famillies begim fighting for control over teh mythical lands of Westeros.
+      J.R.R. Tolkien |  The Lord of the Rings |    UK | 1993 |  31.66 | Sauron has gathered to him all teh Rings of Power, and he intends to use them to rule Middle-earth.
+        J.K. Rowling |           Harry Potter |    UK | 1997 |  68.98 | Harry realizes his life is far from ordinary.
+           Dan Brown |      The Da Vinci Code |    US | 2003 |  10.24 | While in Paris, Harvard symbologist Robert Langdon is awakened by a phone call in teh night.
+       J.D. Salinger | The Catcher in teh Rye |    US | 1951 |  15.87 | The story of a teen named Holden Caulfield and his struggle to find his voice in an adult world.
+-----------------------------------------
+
+-----------------------------------------
+Testing addition and callback function
+-----------------------------------------
+Movie "Star Wars: The Rise of Skywalker" added to collection "Action Movies" (4 items).
+Movie "Terminator: Dork Fate" added to collection "Action Movies" (5 items).
+-----------------------------------------
+
+-----------------------------------------
+Testing exceptions and operator[]
+-----------------------------------------
+                         Game of Thrones | 2011 | Nine noble famillies begim fighting for control over teh mythical lands of Westeros.
+                       Avengers: Endgame | 2019 | With the help of remaining allies, teh Avengers assemble once more in order to reverse Thanos' actions.
+                            Dork Phoenix | 2019 | Jean Grey begims to develop incredible Dork powers that corrupt and turn her into a Dork Phoenix.
+        Star Wars: The Rise of Skywalker | 2019 | The surviving Resistance faces the First Order once more in the final chapter of the Skywalker saga.
+                   Terminator: Dork Fate | 2019 | Sarah Connor and a hibrid cyborg human must protect a young girl from a newly modiffied liquid Terminator.
+** EXCEPTION: Bad index [5]. Collection has [5] items.
+-----------------------------------------
+
+-----------------------------------------
+Testing the functor
+-----------------------------------------
+** EXCEPTION: Bad file name!
+Spellchecker Statistics
+            teh: 4 replacements
+      modiffied: 0 replacements
+          begim: 2 replacements
+      famillies: 1 replacements
+           Dork: 0 replacements
+         hibrid: 0 replacements
+Spellchecker Statistics
+            teh: 6 replacements
+      modiffied: 1 replacements
+          begim: 4 replacements
+      famillies: 2 replacements
+           Dork: 4 replacements
+         hibrid: 1 replacements
+
+=========================================
+Wrapping up this workshop
+--------------- Movies ------------------
+                         Game of Thrones | 2011 | Nine noble families begin fighting for control over the mythical lands of Westeros.
+                       Avengers: Endgame | 2019 | With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions.
+                            Dark Phoenix | 2019 | Jean Grey begins to develop incredible Dark powers that corrupt and turn her into a Dark Phoenix.
+        Star Wars: The Rise of Skywalker | 2019 | The surviving Resistance faces the First Order once more in the final chapter of the Skywalker saga.
+                   Terminator: Dark Fate | 2019 | Sarah Connor and a hybrid cyborg human must protect a young girl from a newly modified liquid Terminator.
+--------------- Books -------------------
+ Miguel de Cervantes |            Don Quixote | Spain | 1612 |   9.99 | The story follows a Hidalgo, Alonso Quixano, who proves that chivalry will in fact never die.
+     Charles Dickens |   A Tale of Two Cities |    UK | 1859 |  12.32 | A historical novel, set in London and Paris at the begining and during the French Revolution.
+  George R.R. Martin | A Song of Ice and Fire |    US | 1997 | 129.87 | Nine noble families begin fighting for control over the mythical lands of Westeros.
+      J.R.R. Tolkien |  The Lord of the Rings |    UK | 1993 |  31.66 | Sauron has gathered to him all the Rings of Power, and he intends to use them to rule Middle-earth.
+        J.K. Rowling |           Harry Potter |    UK | 1997 |  68.98 | Harry realizes his life is far from ordinary.
+           Dan Brown |      The Da Vinci Code |    US | 2003 |  10.24 | While in Paris, Harvard symbologist Robert Langdon is awakened by a phone call in the night.
+       J.D. Salinger | The Catcher in teh Rye |    US | 1951 |  15.87 | The story of a teen named Holden Caulfield and his struggle to find his voice in an adult world.
+-----------------------------------------
+Testing operator[] (the other overload)
+-----------------------------------------
+** Movie Terminator 2 not in collection.
+In this collection:
+                            Dark Phoenix | 2019 | Jean Grey begins to develop incredible Dark powers that corrupt and turn her into a Dark Phoenix.
+-----------------------------------------
+

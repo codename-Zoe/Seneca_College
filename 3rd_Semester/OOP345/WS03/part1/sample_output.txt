@@ -1,0 +1,18 @@
+Command Line:
+--------------------------
+  1: ws
+  2: sales.txt
+--------------------------
+
+Detail Ticket Sales
+--------------------------
+Student : 25
+Adult : 13
+Student : 12
+Adult : 6
+Student : 5
+Adult : 14
+Adult : 1
+Adult : 2
+Adult : 3
+Student : 1

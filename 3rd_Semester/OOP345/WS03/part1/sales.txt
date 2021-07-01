@@ -1,0 +1,13 @@
+Student 25
+Adult 13
+Student 12
+Adult 6
+Student 5
+Adult 14
+Adult 1
+Adult 2
+Adult 3
+Student 1
+Student 2
+Adult 5
+Adult 6

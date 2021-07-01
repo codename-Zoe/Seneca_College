@@ -1,0 +1,47 @@
+Command Line:
+--------------------------
+  1: ws
+  2: products.txt
+  3: sales.txt
+--------------------------
+
+Individual Index Entries
+--------------------------
+Groceries   : tomatoes
+Electronics : computer
+Tools       : hammer
+Groceries   : lettuce
+Groceries   : potatoes
+Electronics : Multimedia_Player
+Electronics : HDD
+Groceries   : meat
+Tools       : jigsaw
+
+Collated Index Entries
+--------------------------
+      Tools: hammer, jigsaw
+  Groceries: tomatoes, lettuce, potatoes, meat
+ Electrnics: 
+Electronics: computer, Multimedia_Player, HDD
+
+Detail Ticket Sales
+--------------------------
+Student : 25
+Adult   : 13
+Student : 12
+Adult   : 6
+Student : 5
+Adult   : 14
+Adult   : 1
+Adult   : 2
+Adult   : 3
+Student : 1
+Student : 2
+Adult   : 5
+Adult   : 6
+
+Summary of Ticket Sales
+--------------------------
+Student Tickets  =   92.70
+  Adult Tickets  =  166.50
+ Senior Tickets  =    0.00

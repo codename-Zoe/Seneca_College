@@ -1,0 +1,29 @@
+Command Line:
+--------------------------
+  1: ws
+  2: data.txt
+--------------------------
+
+Reservations
+--------------------------
+Reservation       1234:                 John  <john@email.com>        Drinks on day 3 @ 5:00 for 2 people.
+Reservation ab defghij:                David  <david@email.com>       Breakfast on day 4 @ 6:00 for 1 person.
+Reservation    RES-003:                 Sara  <sara@email.com>        Breakfast on day 5 @ 7:00 for 2 people.
+Reservation    RES-004:                  Ana  <ana@email.com>         Breakfast on day 5 @ 8:00 for 1 person.
+Reservation    RES-005:                 John  <john@email.com>        Breakfast on day 4 @ 9:00 for 1 person.
+Reservation    RES-006:              Vanessa  <vanessa@email.com>     Drinks on day 3 @ 10:00 for 2 people.
+Reservation    RES 007:                 Mike  <mike@email.com>        Lunch on day 4 @ 11:00 for 4 people.
+Reservation    RES-008:                 Mike  <mike@email.com>        Lunch on day 5 @ 12:00 for 8 people.
+Reservation    RES-009:                  Dan  <dan@email.com>         Lunch on day 3 @ 13:00 for 2 people.
+Reservation    RES-010:                Donna  <donna@email.com>       Lunch on day 5 @ 14:00 for 5 people.
+Reservation    RES-011:                  Ana  <ana@email.com>         Lunch on day 4 @ 15:00 for 4 people.
+Reservation    RES-012:             Jon Snow  <john@email.com>        Drinks on day 5 @ 16:00 for 2 people.
+Reservation    RES-013:                 Sara  <sara@email.com>        Dinner on day 3 @ 17:00 for 6 people.
+Reservation    RES-014:             Jennifer  <jenn@email.com>        Dinner on day 5 @ 18:00 for 6 people.
+Reservation    RES-015:                 Stan  <stan@email.com>        Dinner on day 4 @ 19:00 for 5 people.
+Reservation    RES-016:                Chris  <chris@email.com>       Dinner on day 4 @ 20:00 for 3 people.
+Reservation    RES-017:              Vanessa  <vanessa@email.com>     Dinner on day 4 @ 21:00 for 4 people.
+Reservation    RES-018:                David  <david@email.com>       Drinks on day 5 @ 22:00 for 4 people.
+Reservation    RES-019:                Chris  <chris@email.com>       Drinks on day 3 @ 23:00 for 1 person.
+Reservation    RES-020:                Donna  <donna@email.com>       Drinks on day 4 @ 24:00 for 3 people.
+--------------------------
