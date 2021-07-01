@@ -1,7 +1,3 @@
-// Name:         Nozomi Tsuchiya
-// Email:        ntsuchiya1@myseneca.ca
-// Student ID:   154666192
-
 //Question 2
 window.onload = function(){
     
@@ -11,7 +7,7 @@ window.onload = function(){
     //Question 4
     let tmp = document.querySelector('.intro');  // obtain the query and set it to tmp
     let studentId = '154666192';                 // set my student ID to studentId
-    tmp.innerText = "Nozomi Tsuchiya";           // set my name into class="intro"
+    tmp.innerText = "Chris Redfield";            // set name into class="intro"
     tmp.setAttribute('id',studentId);            // add id attribute
 
     //Question 5
