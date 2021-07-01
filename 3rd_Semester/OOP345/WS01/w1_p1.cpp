@@ -2,17 +2,6 @@
 // Cornel - 2020/01/08
 // Chris - 2021/01/14
 
-//========================================
-// Name:         Nozomi Tsuchiya
-// Email:        ntsuchiya1@myseneca.ca
-// Student ID:   154666192
-// Date:         2021/05/22
-// Section:      NDD
-// Workshop:     1
-// I have done all the coding by myself and only copied the code 
-// that my professor provided to complete my workshops and assignments.
-//========================================
-
 #include <iostream>
 #include <fstream>
 #include "event.h"
