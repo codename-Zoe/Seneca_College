@@ -23,7 +23,7 @@ SELECT * FROM employees;
 
 -- Q4 SOLUTION --
 INSERT INTO employee2 (EMPLOYEENUMBER,LASTNAME,FIRSTNAME,EMAIL,EXTENSION,JOBTITLE,OFFICECODE,REPORTSTO)
-VALUES (1750,'Tsuchiya','Nozomi','ntsuchiya1@myseneca.ca','x2222','Head Cashier','4',1088);
+VALUES (1750,'Leon','Kennedy','lkennedy@myseneca.ca','x2222','Head Cashier','4',1088);
 
 -- Q5 SOLUTION -- 
 INSERT INTO employee2 (EMPLOYEENUMBER,LASTNAME,FIRSTNAME,EMAIL,EXTENSION,JOBTITLE,OFFICECODE,REPORTSTO)
@@ -38,7 +38,7 @@ DELETE FROM employee2 WHERE EMPLOYEENUMBER = 1750;
 
 -- Q8 SOLUTION --
 INSERT ALL
-INTO employee2 VALUES (1750,'Tsuchiya','Nozomi','x2222','ntsuchiya1@myseneca.ca','4',1088,'Head Cashier')
+INTO employee2 VALUES (1750,'Leon','Kenndy','x2222','lkennedy@myseneca.ca','4',1088,'Head Cashier')
 INTO employee2 VALUES (1760,'King','Steven','x100','Steven.k@myseneca.ca','5',1088,'Cashier')
 SELECT * FROM dual;
        
@@ -47,8 +47,8 @@ DELETE FROM employee2 WHERE EMPLOYEENUMBER IN (1750,1760);
 
 -- Q10 SOLUTION --
 UPDATE employee2
-   SET LASTNAME = 'Tsuchiya',
-       FIRSTNAME = 'Nozomi'
+   SET LASTNAME = 'Kennedy',
+       FIRSTNAME = 'Leon'
 WHERE EMPLOYEENUMBER = 1002;
 
 -- Q11 SOLUTION --
