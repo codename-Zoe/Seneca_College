@@ -3,9 +3,7 @@
  * I declare that this assignment is my own work in accordance with Seneca Academic Policy. No part 
  * of this assignment has been copied manually or electronically from any other source 
  * (including 3rd party web sites) or distributed to other students. 
- * 
- * Name: Nozomi Tsuchiya Student ID: 154666192 Date: 2021-06-22 
- * 
+ *
  * Online (Heroku) Link: https://tranquil-tundra-26636.herokuapp.com/
  * 
  * ********************************************************************************/
