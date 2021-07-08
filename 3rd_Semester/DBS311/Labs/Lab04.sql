@@ -3,13 +3,14 @@
 -- Exclude NULL departments from your result. Use a set operator to create this list.
 SELECT department_id "Dept#"
 FROM	department 
+WHERE department_id IS NOT NULL
 MINUS
 SELECT department_id
 FROM employee
 WHERE	job_id = 'ST_CLERK';
 
 -- Q2 --
--- Display list with employee’s Id, Job Id and Salary that will include the current job and salary and all previous Jobs,
+-- Display list with employeeâ€™s Id, Job Id and Salary that will include the current job and salary and all previous Jobs,
 -- if they have them (here you will display salary of -1). 
 -- Use a set operator for this report.
 SELECT employee_id "Employee#",
