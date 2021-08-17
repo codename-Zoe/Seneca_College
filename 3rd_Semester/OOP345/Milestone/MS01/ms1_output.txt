@@ -1,0 +1,63 @@
+Command Line: ms1 Stations1.txt Stations2.txt
+
+========================================
+=         Stations (summary)           =
+========================================
+[001] Item: Bed            [123456]
+[002] Item: Armchair       [654321]
+[003] Item: Dresser        [056789]
+[004] Item: Nighttable     [000887]
+[005] Item: Filing Cabinet [987654]
+[006] Item: Office Chair   [147852]
+[007] Item: Bookcase       [000987]
+[008] Item: Desk           [459214]
+
+
+========================================
+=          Stations (full)             =
+========================================
+[001] Item: Bed            [123456] Quantity: 5              Description: Queen size bed with headboard
+[002] Item: Armchair       [654321] Quantity: 10             Description: Upholstered Wing Chair
+[003] Item: Dresser        [056789] Quantity: 7              Description: 6-Drawer Unit
+[004] Item: Nighttable     [000887] Quantity: 5              Description: Nightstand with 2 drawers
+[005] Item: Filing Cabinet [987654] Quantity: 5              Description: 3-drawer filing cabinet
+[006] Item: Office Chair   [147852] Quantity: 20             Description: High-back carpet-rollers
+[007] Item: Bookcase       [000987] Quantity: 5              Description: 5-shelf open bookcase
+[008] Item: Desk           [459214] Quantity: 2              Description: 6-foot worktable
+
+
+========================================
+=          Manual Validation           =
+========================================
+getItemName(): Bed
+getNextSerialNumber(): 123456
+getNextSerialNumber(): 123457
+getQuantity(): 5
+getQuantity(): 4
+
+========================================
+=              Utilities               =
+========================================
+Data: [a]    Delimiter: [a]
+   ERROR: No token.
+Data: [a]    Delimiter: [b]
+   Token: [a] [1]
+Data: [Hello]    Delimiter: [l]
+   Token: [He] [2]
+   ERROR: No token.
+Data: [apple,orange,banana,kiwi,strawberry,yellow watermellon]    Delimiter: [,]
+   Token: [apple] [5]
+   Token: [orange] [6]
+   Token: [banana] [6]
+   Token: [kiwi] [6]
+   Token: [strawberry] [10]
+   Token: [yellow watermellon] [18]
+Data: [Gengar|Arcanine|Bulbasaur|Blaziken|C h a r i z a r d|Umbreon|Lucario|Eevee]    Delimiter: [|]
+   Token: [Gengar] [6]
+   Token: [Arcanine] [8]
+   Token: [Bulbasaur] [9]
+   Token: [Blaziken] [9]
+   Token: [C h a r i z a r d] [17]
+   Token: [Umbreon] [17]
+   Token: [Lucario] [17]
+   Token: [Eevee] [17]
