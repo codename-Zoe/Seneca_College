@@ -1,0 +1,48 @@
+﻿Command Line:
+--------------------------
+  1: w6.exe
+  2: dataClean.txt
+  3: dataMessy.txt
+--------------------------
+
+--------------------------------
+| Cars in the autoshop!        |
+--------------------------------
+|     Toyota | new    | 157.00 |
+|     Jaguar | used   | 295.20 |*
+|      Honda | broken | 145.00 |
+|     Porche | used   | 365.40 |*
+|   Chrysler | new    | 173.00 |
+--------------------------------
+
+Invalid record!
+Invalid record!
+Unrecognized record type: [t]
+--------------------------------
+| Cars in the autoshop!        |
+--------------------------------
+|     Toyota | new    | 157.00 |
+|     Jaguar | used   | 295.20 |*
+|      Honda | broken | 145.00 |
+|     Porche | used   | 365.40 |*
+|   Chrysler | new    | 173.00 |
+| Alfa Romeo | new    | 176.00 |
+|       Ford | new    | 162.00 |
+|   Red Bull | broken | 346.56 |*
+|    Ferrari | new    | 367.33 |*
+--------------------------------
+
+--------------------------------
+|       Fast Vehicles          |
+--------------------------------
+|     Porche | used   | 365.40 |*
+|   Red Bull | broken | 346.56 |*
+|    Ferrari | new    | 367.33 |*
+--------------------------------
+
+--------------------------------
+| Vehicles in need of repair   |
+--------------------------------
+|      Honda | broken | 145.00 |
+|   Red Bull | broken | 346.56 |*
+--------------------------------

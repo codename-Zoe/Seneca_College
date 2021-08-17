@@ -1,0 +1,5 @@
+c, Toyota  , n, 157
+r, Jaguar  , u, 246, 0.2
+c, Honda   , b, 145
+r, Porche  , u, 261, 0.4
+c, Chrysler, n, 173

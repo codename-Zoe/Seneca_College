@@ -1,0 +1,7 @@
+r,Mercedes, b, aaa, 0.2
+c ,Alfa Romeo, n, 176
+ C,  Ford,, 162
+R,  Red Bull, b,304, 0.14
+ c,BMW , s, 156
+ t, McLaren, u, 344, 0.1
+ r, Ferrari, ,337, 0.09
