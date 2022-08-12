@@ -1,5 +1,5 @@
 <h3>Seneca College</h3><br />
-September, 2020 - Present:mortar_board:<br />
+September, 2020 - August, 2022:mortar_board:<br />
 <br />
 1st Semester:white_check_mark:<br />
 IPC144 - Introduction to Programming Using C<br />
